@@ -31,7 +31,7 @@ function play(obj){
         res = "   Ganaste";
         result.innerHTML = res;
     }else if(human == "tijera" && computer == "piedra"){
-        res = "   Ganaste";
+        res = "   Perdiste";
         result.innerHTML = res;
     }
 }
