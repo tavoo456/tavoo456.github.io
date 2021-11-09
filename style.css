@@ -28,28 +28,28 @@ p,a{
     margin: 10px 0;
 }
 
-h2{
-    margin: 20px;
-    font-size: 40px;
-}
-
 .cont{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .result{
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 25px;
 } 
+.result h2{
+    margin: 20px;
+    font-size: 40px;
+}
 
 img{
-    width: 200px;
+    width: 15%;
     height: 200px;
     border-radius: 80px;
     transition: all 0.4s ease;
     border: 5px solid;
+    display: inline-block;
 }
 img:hover{
     margin: 20px;
@@ -60,8 +60,25 @@ img:hover{
 }
 
 footer{
+    width: 100%;
     padding: 10px;
     background-color: rgba(62, 65, 255, 0.719);
     text-align: center;
     color: #fff;
+}
+
+@media screen and (max-width: 950px){
+    img{
+        width: 30%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .result{
+        margin: 10px;
+        font-size: 15px;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
