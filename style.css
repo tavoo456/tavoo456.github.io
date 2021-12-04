@@ -5,9 +5,38 @@
     padding: 0;
 }
 
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: #092327;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li a{
+    text-decoration: none;
+    color: red;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li:hover{
+    background-color: rosybrown;
+}
+
 body{
     background-color: rgba(62, 62, 255, 0.719);
     font-family: 'Londrina Solid', cursive;
+}
+
+h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 25px;
 }
 
 h1{
@@ -20,9 +49,8 @@ h1:hover{
     text-shadow: 3px 5px #000;
     font-size: 62px;
 }
-p,a{
+a{
     text-decoration: none;
-    text-align: center;
     font-size: 30px;
     color: #fff;
     margin: 10px 0;
@@ -60,7 +88,6 @@ img:hover{
 }
 
 footer{
-    width: 100%;
     padding: 10px;
     background-color: rgba(62, 65, 255, 0.719);
     text-align: center;

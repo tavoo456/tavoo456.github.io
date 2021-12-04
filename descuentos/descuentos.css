@@ -33,13 +33,6 @@ h2{
     color: #333;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .contenedor{
     display: flex;
     align-items: center;
@@ -74,8 +67,10 @@ button{
     margin: 10px;
     border-radius: 8px;
     font-size: 20px;
-    transition: all 0.5s;
 }
-button:hover{
-    padding: 5px;
+
+#ResultP{
+    background-color: beige;
+    width: 280px;
+    padding: 10px;
 }
