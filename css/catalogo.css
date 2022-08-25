@@ -124,3 +124,9 @@ body{
         left:0;
     }
 }
+
+@media (max-width: 615px){
+    .catalogo div{
+        width: 80%;
+    }
+}

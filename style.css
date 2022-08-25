@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: #2fcdcd;
+    background: blue;
     height: 80px;
     width: 100%;
 }
@@ -147,3 +147,4 @@ body{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
