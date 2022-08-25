@@ -78,13 +78,7 @@ body{
     position: absolute;
     left: 5%;
     top: 30%;
-    transition: all 0.5s;
 }
-.header img:hover{
-    width: 400px;
-    z-index: -1;
-}
-
 
 .contenedor{
     display: grid;
@@ -148,3 +142,20 @@ body{
     }
 }
 
+@media (max-width: 615px){
+    .header{
+        height: 350px;
+    }
+    .header img{
+        margin: 0;
+        position: absolute;
+        left: 20%;
+        top: 30%;
+    }
+    .header p{
+        margin: 0;
+        position: absolute;
+        left: 10%;
+        top: 60%;
+    }
+}
