@@ -57,28 +57,14 @@ body{
 }
 
 .header{
-    position: relative;
-    width: 80%;
-    height: 200px;
+    width: 20%;
+    height: 100px;
     z-index: -1;
+    margin: 0 auto;
 }
-.header p{
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-}
 .header img{
     width: 270px;
-
-    margin: 0;
-    position: absolute;
-    left: 5%;
-    top: 30%;
 }
 
 .contenedor{
@@ -110,8 +96,12 @@ body{
         font-size: 16px;
     }
 
-    .contenedor{
-        grid-template-columns: repeat(2, 1fr);
+    .contenedor .tarjeta{
+        width: 80%;
+    }
+
+    .header{
+        width: 30%;
     }
 }
 
@@ -144,26 +134,25 @@ body{
     #check:checked ~ ul{
         left:0;
     }
+}
 
-    .contenedor{
-        grid-template-columns: repeat(1, 1fr);
+@media (max-width: 700px){
+    .header{
+        width: 40%;
     }
 }
 
-@media (max-width: 615px){
+@media (max-width: 644px){
+    .contenedor{
+        width: 90%;
+    }
+    .contenedor .tarjeta{
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px){
     .header{
-        height: 350px;
-    }
-    .header img{
-        margin: 0;
-        position: absolute;
-        left: 20%;
-        top: 30%;
-    }
-    .header p{
-        margin: 0;
-        position: absolute;
-        left: 10%;
-        top: 60%;
+        width: 50%;
     }
 }
