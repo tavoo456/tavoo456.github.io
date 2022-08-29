@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: #2fcdcd;
+    background-color: #4eb9f7;
     height: 80px;
     width: 100%;
 }
@@ -57,7 +57,12 @@ body{
 }
 
 .header{
-    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .catalogo h2{
@@ -68,7 +73,7 @@ body{
 .catalogo div{
     width: 80%;
     margin: 0 auto;
-    background-color: #2fcdcd;
+    background-color: #4eb9f7;
     display: flex;
 
     border-radius: 19px;
