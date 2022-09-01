@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: #2fcdcd;
+    background: #4eb9f7;
     height: 80px;
     width: 100%;
 }
@@ -70,11 +70,16 @@ h1{
 }
 
 .historia{
-    background-color: #2fcdcd;
+    background-color: #4eb9f7;
     padding: 20px;
     width: 70%;
     float: left;
     margin-top: 50px;
+    border-radius: 19px;
+
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
 }
 .fotos{
     width: 30%;
@@ -88,7 +93,8 @@ h1{
     text-align: center;
 }
 .historia p{
-    padding-top: 20px
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media screen and (max-width: 985px){
