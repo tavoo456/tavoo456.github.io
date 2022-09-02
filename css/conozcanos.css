@@ -21,6 +21,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav ul li{
     display: inline-block;
@@ -70,7 +71,8 @@ h1{
 }
 
 .historia{
-    background-color: #4eb9f7;
+    /* background-color: #4eb9f7; */
+    border: 1px solid black;
     padding: 20px;
     width: 70%;
     float: left;
@@ -80,6 +82,9 @@ h1{
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+.historia:hover{
+    background-color: #4eb9f7;
 }
 .fotos{
     width: 30%;

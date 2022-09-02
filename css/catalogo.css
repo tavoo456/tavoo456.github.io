@@ -21,6 +21,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav ul li{
     display: inline-block;
@@ -78,7 +79,8 @@ body{
     overflow: hidden;
 }
 .contenedor .tarjeta{
-    background-color: #4eb9f7;
+    /* background-color: #4eb9f7; */
+    border: 1px solid black;
     border-radius: 19px;
     width: 95%;
     float: left;
@@ -90,6 +92,10 @@ body{
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+.contenedor .tarjeta:hover{
+    background-color: #4eb9f7;
+    cursor: pointer;
 }
 .contenedor .tarjeta h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

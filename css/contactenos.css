@@ -21,6 +21,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav ul li{
     display: inline-block;
@@ -64,7 +65,8 @@ body{
 }
 
 .cont .tarjeta{
-    background-color: #4eb9f7;
+    /* background-color: #4eb9f7; */
+    border: 1px solid black;
     border-radius: 19px;
     width: 45%;
     float: left;
@@ -78,6 +80,7 @@ body{
 }
 .cont .tarjeta h2, h3{
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
 }
 .cont .tarjeta h4{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -86,6 +89,10 @@ body{
 .cont .tarjeta p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
+}
+.cont .tarjeta i{
+    width: 30px;
+    height: 30px;
 }
 
 @media (max-width: 976px){

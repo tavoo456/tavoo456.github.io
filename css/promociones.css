@@ -21,6 +21,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav ul li{
     display: inline-block;
@@ -61,9 +62,19 @@ body{
     margin: 0 auto;
 }
 
+.header{
+    text-align: center;
+    margin: 0 auto;
+}
+.header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
 .promociones{
-    background-color: #4eb9f7;
+    border: 1px solid black;
     border-radius: 19px;
+    margin-top: 40px;
 
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
@@ -72,7 +83,12 @@ body{
 .promociones div{
     display: flex;
     padding: 20px;
-    margin-top: 15px;
+}
+.promociones div p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 20px 70px;
 }
 
 @media screen and (max-width: 985px){
@@ -123,10 +139,19 @@ body{
 }
 
 @media screen and (max-width: 800px){
-    .historia{
+    .promociones{
         width: 100%;
     }
-    .fotos{
+    .promociones div{
         width: 100%;
+        padding: 10px;
+    }
+    .promociones div p{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .promociones div img{
+        width: 200px;
+        height: 150px;
     }
 }
