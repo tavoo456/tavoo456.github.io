@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: #4eb9f7;
+    background: #4eb;
     height: 80px;
     width: 100%;
 }
@@ -29,14 +29,14 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: #fff;
+    color: #000;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #000090;
+    background: #fff;
     transition: .5s;
 }
 .checkbtn{
@@ -65,7 +65,6 @@ body{
 }
 
 .cont .tarjeta{
-    /* background-color: #4eb9f7; */
     border: 1px solid black;
     border-radius: 19px;
     width: 45%;
@@ -73,6 +72,11 @@ body{
     margin: 1.1em;
     padding: 10px;
     text-align: center;
+
+    transition: all 0.5s;
+}
+.cont .tarjeta:hover{
+    background-color: rgb(247, 255, 130);
 
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
@@ -93,6 +97,14 @@ body{
 .cont .tarjeta i{
     width: 30px;
     height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media (max-width: 976px){

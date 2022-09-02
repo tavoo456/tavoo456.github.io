@@ -7,7 +7,7 @@
 }
 
 nav{
-    background: #4eb9f7;
+    background: #4eb;
     height: 80px;
     width: 100%;
 }
@@ -29,14 +29,14 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: #fff;
+    color: #000;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #000090;
+    background: #fff;
     transition: .5s;
 }
 .checkbtn{
@@ -76,6 +76,11 @@ body{
     border-radius: 19px;
     margin-top: 40px;
 
+    transition: all 0.5s;
+}
+.promociones:hover{
+    background-color: rgb(247, 255, 130);
+
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
@@ -89,6 +94,15 @@ body{
     font-weight: bolder;
     font-size: 25px;
     padding: 20px 70px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer h3{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media screen and (max-width: 985px){

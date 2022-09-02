@@ -7,7 +7,7 @@
 }
 
 nav{
-    background-color: #4eb9f7;
+    background-color: #4eb;
     height: 80px;
     width: 100%;
 }
@@ -21,6 +21,7 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav ul li{
     display: inline-block;
@@ -28,14 +29,14 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: #fff;
+    color: black;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #000090;
+    background: #fff;
     transition: .5s;
 }
 .checkbtn{
@@ -81,6 +82,9 @@ body{
     margin: 1.1em;
     padding: 10px;
 
+    transition: all 0.5s;
+}
+.contenedor .tarjeta:hover{
     -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
@@ -104,6 +108,14 @@ body{
     height: 400px;
     border-radius: 19px;
     margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media (max-width: 952px){
